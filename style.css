@@ -46,12 +46,18 @@ body {
 
 h1 {
   font-size: 50px;
+  color: var(--dark-purple);
 }
 
 .star-icon {
   margin-right: 20px;
 }
 
+.question {
+  color: var(--dark-purple);
+}
+
 .answer {
   display: none;
+  color: var(--grayish-purple);
 }
