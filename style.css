@@ -35,7 +35,7 @@ body {
   position: relative;
   z-index: 2;
   width: 550px;
-  height: 500px;
+  min-height: 480px;
   padding: 40px;
   background-color: white;
   border-radius: 10px;
@@ -44,18 +44,24 @@ body {
   margin-top: 160px;
 }
 
+.star-icon {
+  margin-right: 30px;
+}
+
 h1 {
+  margin: 0;
   font-size: 50px;
   color: var(--dark-purple);
 }
 
-.star-icon {
-  margin-right: 20px;
+h2 {
+  font-size: 20px;
 }
 
 .question {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
   color: var(--dark-purple);
 }
 
