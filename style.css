@@ -54,6 +54,8 @@ h1 {
 }
 
 .question {
+  display: flex;
+  justify-content: space-between;
   color: var(--dark-purple);
 }
 
