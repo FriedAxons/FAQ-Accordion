@@ -71,6 +71,13 @@ h2:hover {
 }
 
 .answer {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, color 0.3s ease;
   color: var(--grayish-purple);
+  /* display: none; */
+}
+
+.answer.expanded {
+  max-height: 500px;
 }
