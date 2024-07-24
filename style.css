@@ -55,13 +55,18 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 19px;
+}
+
+h2:hover {
+  cursor: pointer;
+  color: #AD28EB;
 }
 
 .question {
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 60px;
   color: var(--dark-purple);
 }
 
