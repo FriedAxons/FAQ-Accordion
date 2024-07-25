@@ -28,6 +28,10 @@ Users should be able to:
 
 ### Screenshot
 
+![Desktop version image](assets/images/screenshots/desktop.png)
+![Mobile version image](assets/images/screenshots/mobile.png)
+![Active state image](assets/images/screenshots/active.png)
+
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
