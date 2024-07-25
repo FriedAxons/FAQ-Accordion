@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         answer.classList.add("expanded");
         answer.style.maxHeight = answer.scrollHeight + "px";
-        faqIcon.src = "assets/images/icon-minus.svg";
         question.style.color = "#ad28eb";
+        faqIcon.src = "assets/images/icon-minus.svg";
       }
     });
   });
