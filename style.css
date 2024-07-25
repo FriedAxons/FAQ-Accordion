@@ -95,8 +95,8 @@ h2:hover {
   }
   
   .star-icon img {
-    width: 10%;
-    height: 10%;
+    width: 9%;
+    height: 9%;
   }
 
   h1 {
@@ -114,7 +114,7 @@ h2:hover {
   .faq-card {
     padding: 25px 10px 0px 20px;
     width: 80%;
-    min-height: 55vh;
+    min-height: 60vh;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
@@ -122,6 +122,6 @@ h2:hover {
   }
 
   .question {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
   }
 }
