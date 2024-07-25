@@ -93,9 +93,14 @@ h2:hover {
     align-items: center;
     justify-content: center;
   }
+  
+  .star-icon img {
+    width: 10%;
+    height: 10%;
+  }
 
   h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
 
   h2 {
@@ -107,12 +112,16 @@ h2:hover {
   }
 
   .faq-card {
-    padding: 20px 10px 10px 20px;
+    padding: 25px 10px 0px 20px;
     width: 80%;
+    min-height: 55vh;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .question {
-    margin-top: 50px;
+    margin: 0px 0px 10px 0px;
   }
 }
