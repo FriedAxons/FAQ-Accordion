@@ -18,12 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         faqs.forEach((item) => {
           const otherAnswer = item.querySelector(".answer");
+          const otherQuestion = item.querySelector(".question");
           const otherIcon = item.querySelector(".plus-icon img");
 
           if (otherAnswer.classList.contains("expanded")) {
             otherAnswer.classList.remove("expanded");
             otherAnswer.style.maxHeight = "0";
-            question.style.color = "var(--dark-purple)";
+            otherQuestion.style.color = "var(--dark-purple)";
             otherIcon.src = "assets/images/icon-plus.svg";
           }
         });
